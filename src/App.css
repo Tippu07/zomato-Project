@@ -1,0 +1,141 @@
+.header{
+  background-color: #cb202d;
+  padding: 10px 0;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.container{
+  top:100px;
+  position: absolute;
+}
+.logo{
+  width:100px;
+  height: 62px;
+  margin: 0 10%;
+}
+.header input[type=text]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.search-button{
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,.75);
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 4px;
+  height: 38px;
+  padding: 8px 10px;
+  margin-left: 10px;
+}
+.logout-button{
+  border: none;
+  cursor: pointer;
+}
+.sign-up{
+  border: none;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  top:80px;
+}
+.sidenav li{
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.link{
+  text-decoration: none;
+  color: inherit
+}
+
+.sidenav li:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 200px; 
+}
+.main-container{
+  background-image: url(https://b.zmtcdn.com/images/foodshots/cover/pizza3.jpg);
+  width: 100%;
+  height: 300px;
+}
+.container-image{
+  background: rgba(0,0,0,0.4);
+  width:100%;
+  height: 300px;
+  position: relative;
+}
+.container-image img{
+  width: 100px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.resto-cards{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top:82px;
+}
+.card{
+  display: 350px;
+
+}
+.card-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 8px;
+  height: 20px;
+  font-weight: 600;
+  width: 35px;
+  background: #3F7E00;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 18px;
+}
+.search{
+  position: relative;
+  top:-25%;
+}
+.user-details{
+  top:82px;
+  position: absolute;
+  border: 3px solid #f1f1f1;
+  left: 30%;
+  width: 700px;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+.user-bookings{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top:82px;
+}
